@@ -36,7 +36,7 @@ npm install
 npm run dev
 ```
 
-The site will be available at `http://localhost:3000`
+The site will be available at `http://localhost:3131`
 
 ### 3. Run in Production
 
@@ -168,7 +168,7 @@ server {
     server_name yourdomain.com;
 
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://localhost:3131;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';

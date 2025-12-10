@@ -3,7 +3,8 @@ const path = require('path');
 const { marked } = require('marked');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3131;
+const HOST = process.env.HOST || '0.0.0.0';
 
 // Middleware
 app.use(express.static('public'));
@@ -19,6 +20,7 @@ app.get('/project/:slug', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, HOST, () => {
   console.log(`Portfolio server running on http://localhost:${PORT}`);
+  console.log(`Server bound to ${HOST} and listening on port ${PORT}`);
 });

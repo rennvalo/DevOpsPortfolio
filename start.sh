@@ -26,7 +26,7 @@ if [ ! -d "node_modules" ]; then
 fi
 
 # Start the server
-echo "🌐 Starting server on http://localhost:3000"
+echo "🌐 Starting server on http://localhost:3131"
 echo "   Press Ctrl+C to stop the server"
 echo ""
 
