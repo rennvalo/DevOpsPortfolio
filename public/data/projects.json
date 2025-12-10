@@ -166,7 +166,7 @@
       "year": "2024",
       "category": "Web Application",
       "technologies": ["Node.js", "JavaScript ES6+", "Google Gemini", "p5.js", "Anime.js", "Tailwind CSS", "Docker"],
-      "image": "/images/vistarot.svg",
+      "image": "/images/vistarot.jpg",
       "liveUrl": "https://vistarot.com",
       "shortDescription": "Sophisticated tarot reading application combining ancient wisdom with AI and Wabi-Sabi design philosophy.",
       "highlights": [
