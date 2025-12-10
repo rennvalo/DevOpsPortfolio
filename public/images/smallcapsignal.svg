@@ -1,0 +1,13 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad6)"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="60" fill="#333" text-anchor="middle">📈</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333" text-anchor="middle">SmallCapSignal</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" fill="#555" text-anchor="middle">Financial Intelligence Platform</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="18" fill="#666" text-anchor="middle">React • FastAPI • OpenAI • Gemini</text>
+</svg>

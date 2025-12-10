@@ -1,0 +1,190 @@
+{
+  "projects": [
+    {
+      "id": "altpals",
+      "slug": "altpals",
+      "title": "AltPals - Social Matching Platform",
+      "subtitle": "Full-Stack Real-Time Match & Chat Application",
+      "year": "2025",
+      "category": "Web Application",
+      "technologies": ["FastAPI", "Python", "MySQL", "Redis", "WebSockets", "Docker", "Tailwind CSS", "JavaScript"],
+      "image": "/images/altpals.jpg",
+      "liveUrl": "https://altpals.com",
+      "shortDescription": "Tinder-like dating web application with real-time messaging, AI-powered bot conversations, and smart matching algorithms.",
+      "highlights": [
+        "Real-time WebSocket messaging with Redis pub/sub",
+        "AI-powered bot conversations using Google Gemini",
+        "Async-first architecture handling thousands of concurrent users",
+        "Smart distance-based filtering using Haversine formula",
+        "Complete authentication system with JWT and bcrypt"
+      ],
+      "challenges": "Implementing real-time messaging across multiple server workers required Redis pub/sub architecture. Balancing AI API costs with quality led to smart provider rotation system.",
+      "outcome": "Production-ready dating platform with sub-second response times and 50%+ cost savings through intelligent LLM provider rotation.",
+      "keyFeatures": [
+        "Swipe-based discovery (Hot/Not)",
+        "Real-time chat with photo attachments",
+        "100 AI-powered bot profiles with unique personalities",
+        "Geographic filtering with distance calculations",
+        "Second Look feature to review rejected profiles"
+      ]
+    },
+    {
+      "id": "binaturalbeats",
+      "slug": "binaturalbeats",
+      "title": "BiNaturalBeats.com",
+      "subtitle": "Author Website & Digital Book Publication",
+      "year": "2021",
+      "category": "WordPress Site",
+      "technologies": ["WordPress", "Amazon Publishing", "eCommerce", "Content Management"],
+      "image": "/images/binaturalbeats.jpg",
+      "liveUrl": "https://binaturalbeats.com",
+      "shortDescription": "WordPress-based author website serving as promotional engine and storefront for digital book publication.",
+      "highlights": [
+        "Complete WordPress site design and management",
+        "Amazon self-publishing integration (eBook & print)",
+        "Professional content organization and presentation",
+        "Direct reader engagement platform"
+      ],
+      "challenges": "Creating a cohesive brand presence across website and Amazon marketplace while maintaining professional presentation.",
+      "outcome": "Successful launch of digital book with integrated distribution strategy combining website presentation and Amazon marketplace reach."
+    },
+    {
+      "id": "treetender",
+      "slug": "treetender",
+      "title": "TreeTender Game",
+      "subtitle": "Interactive Tree Growth Simulation",
+      "year": "2024",
+      "category": "Web Game",
+      "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "SQLite", "Node.js", "Docker"],
+      "image": "/images/treetender.jpg",
+      "liveUrl": "https://earnisignal.com",
+      "shortDescription": "Educational web game where users nurture virtual trees through growth stages with event-driven gameplay.",
+      "highlights": [
+        "Component-driven UI with reusable design system",
+        "Real-time growth tracking and event logging",
+        "Admin panel for event management",
+        "Celebration animations and printable certificates",
+        "Docker containerization for easy deployment"
+      ],
+      "keyFeatures": [
+        "Tree lifecycle visualization",
+        "Randomized and manual event system",
+        "Growth milestone celebrations",
+        "Certificate generation for mature trees",
+        "Admin tools for care parameter management"
+      ]
+    },
+    {
+      "id": "ouragents",
+      "slug": "ouragents",
+      "title": "OurAgents - Email Automation System",
+      "subtitle": "Intelligent Customer Service with Local LLM",
+      "year": "2024",
+      "category": "AI Application",
+      "technologies": ["FastAPI", "Python", "LangChain", "Ollama", "Llama 3.2", "SQLAlchemy", "Docker"],
+      "image": "/images/ouragents.svg",
+      "liveUrl": "https://our-agents.com",
+      "shortDescription": "Automated customer service system using local LLM for intelligent email classification and response generation.",
+      "highlights": [
+        "Local LLM deployment with Llama 3.2 for data privacy",
+        "Intelligent email classification (positive/negative/questions)",
+        "Automated response generation with product knowledge base",
+        "IMAP/SMTP email monitoring and delivery",
+        "Docker containerization with Supervisord orchestration"
+      ],
+      "challenges": "Balancing response quality with the constraints of local LLM inference while maintaining low latency and high reliability.",
+      "outcome": "Production-grade customer service automation with complete data sovereignty and zero per-request API costs.",
+      "keyFeatures": [
+        "4-category feedback classification system",
+        "Tailored response templates per category",
+        "Conversation history tracking",
+        "Multi-process management with Supervisord",
+        "SQLite database for user and conversation persistence"
+      ]
+    },
+    {
+      "id": "overcomerpoolcue",
+      "slug": "overcomerpoolcue",
+      "title": "Overcomer Pool Cues",
+      "subtitle": "E-commerce with AI Customer Service",
+      "year": "2024",
+      "category": "E-commerce + AI",
+      "technologies": ["React", "TypeScript", "FastAPI", "Ollama", "LangChain", "Docker", "CUDA", "Tailwind CSS"],
+      "image": "/images/overcomerpoolcue.jpg",
+      "liveUrl": "https://overcomerpoolcue.com",
+      "shortDescription": "Premium pool cue e-commerce site with sophisticated AI-powered customer service automation.",
+      "highlights": [
+        "Modern React/TypeScript frontend with Shadcn/ui components",
+        "Local LLM infrastructure with GPU acceleration (CUDA 11.8)",
+        "Automated email processing with IMAP monitoring",
+        "Product knowledge base integration for accurate responses",
+        "Multi-stage LLM pipeline for classification and generation"
+      ],
+      "challenges": "Implementing GPU-accelerated local LLM inference while maintaining conversational quality and product accuracy.",
+      "outcome": "Complete e-commerce solution with intelligent customer support reducing response time to under 20 seconds end-to-end.",
+      "keyFeatures": [
+        "Asynchronous email monitoring and parsing",
+        "3-category response system (positive/negative/product questions)",
+        "Detailed product specification integration",
+        "SSL/TLS encrypted communication",
+        "Supervisord multi-process orchestration"
+      ]
+    },
+    {
+      "id": "smallcapsignal",
+      "slug": "smallcapsignal",
+      "title": "SmallCapSignal",
+      "subtitle": "Financial Intelligence Platform",
+      "year": "2024",
+      "category": "FinTech + AI",
+      "technologies": ["React", "TypeScript", "FastAPI", "Python", "OpenAI", "Google Gemini", "Docker", "React Query"],
+      "image": "/images/smallcapsignal.svg",
+      "liveUrl": "https://smallcapsignal.com",
+      "shortDescription": "Intelligent market analysis platform combining real-time monitoring, automated content generation, and multi-channel distribution.",
+      "highlights": [
+        "Multi-provider LLM support (OpenAI, Gemini, local models)",
+        "Automated RSS feed monitoring and content curation",
+        "Earnings transcript comparative analysis",
+        "Subscriber management with newsletter distribution",
+        "React Query for optimized state management"
+      ],
+      "challenges": "Creating flexible LLM provider abstraction while maintaining consistent output quality across different models and managing API costs.",
+      "outcome": "Production financial intelligence platform with 99.9% uptime through intelligent LLM fallback mechanisms.",
+      "keyFeatures": [
+        "Real-time market intelligence aggregation",
+        "AI-powered content filtering and classification",
+        "Quarter-over-quarter earnings analysis",
+        "Multi-channel distribution (email, RSS, social)",
+        "Comprehensive subscriber management dashboard"
+      ]
+    },
+    {
+      "id": "vistarot",
+      "slug": "vistarot",
+      "title": "VisTarot",
+      "subtitle": "AI-Powered Tarot Reading Platform",
+      "year": "2024",
+      "category": "Web Application",
+      "technologies": ["Node.js", "JavaScript ES6+", "Google Gemini", "p5.js", "Anime.js", "Tailwind CSS", "Docker"],
+      "image": "/images/vistarot.svg",
+      "liveUrl": "https://vistarot.com",
+      "shortDescription": "Sophisticated tarot reading application combining ancient wisdom with AI and Wabi-Sabi design philosophy.",
+      "highlights": [
+        "Multi-provider LLM architecture with 3-key rotation",
+        "Wabi-Sabi aesthetic design philosophy",
+        "Interactive Oracle chat for follow-up questions",
+        "Advanced animations with p5.js and Anime.js",
+        "Multiple spread types (Single, Three-Card, Celtic Cross)"
+      ],
+      "challenges": "Creating an atmospheric, meditative experience while integrating real-time AI capabilities and maintaining cross-browser compatibility.",
+      "outcome": "Production-ready mystical platform with 99.9% uptime through intelligent API key rotation and graceful degradation.",
+      "keyFeatures": [
+        "78-card comprehensive tarot database",
+        "AI-enhanced natural language interpretations",
+        "Particle effect atmospherics",
+        "Reading history with chart visualizations",
+        "SEO-optimized with Schema.org markup"
+      ]
+    }
+  ]
+}

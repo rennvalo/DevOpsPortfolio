@@ -1,0 +1,13 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad3)"/>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="60" fill="white" text-anchor="middle">🌳</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">TreeTender</text>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.9)" text-anchor="middle">Interactive Tree Growth Game</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.8)" text-anchor="middle">React • TypeScript • Vite</text>
+</svg>
