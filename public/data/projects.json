@@ -185,6 +185,34 @@
         "Reading history with chart visualizations",
         "SEO-optimized with Schema.org markup"
       ]
+    },
+    {
+      "id": "fuzeline",
+      "slug": "fuzeline",
+      "title": "Fuzeline",
+      "subtitle": "Mobile Gaming Experience for iOS",
+      "year": "2024",
+      "category": "Mobile Development",
+      "technologies": ["Swift", "Unity", "iOS", "Mobile Development", "Game Development"],
+      "image": "/images/fuzeline.jpg",
+      "liveUrl": "https://www.fuzelinegame.com",
+      "shortDescription": "Engaging iPhone game built with Swift and Unity engine, delivering an innovative mobile gaming experience.",
+      "highlights": [
+        "VP of Technology leading technical strategy",
+        "Swift and Unity engine integration",
+        "iOS platform optimization for performance",
+        "Cross-functional team collaboration",
+        "End-to-end technical architecture"
+      ],
+      "challenges": "Integrating Unity engine with native Swift code while maintaining optimal performance and smooth gameplay on iOS devices.",
+      "outcome": "Successfully launched innovative mobile game on iOS platform with smooth performance and positive user engagement.",
+      "keyFeatures": [
+        "Native iOS integration with Unity",
+        "Optimized mobile gaming performance",
+        "Engaging gameplay mechanics",
+        "Professional game deployment to App Store"
+      ],
+      "role": "VP of Technology & Collaborator"
     }
   ]
 }
