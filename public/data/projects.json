@@ -1,6 +1,39 @@
 {
   "projects": [
     {
+      "id": "cryptosim",
+      "slug": "cryptosim",
+      "title": "CryptoSim — RennCoin Mining Simulation",
+      "subtitle": "Bitcoin-Style Proof-of-Work Blockchain in Docker",
+      "year": "2026",
+      "category": "Educational Simulation",
+      "technologies": ["Python", "Docker", "Docker Compose", "SHA-256", "ECDSA", "secp256k1", "SSE", "JavaScript"],
+      "image": "/images/cryptosim.svg",
+      "liveUrl": "https://www.ouragentsai.com/",
+      "shortDescription": "Built for educational purposes — a beginner-friendly simulation of how Bitcoin-style cryptocurrency mining actually works. Up to 10 Docker containers race each other to solve Proof-of-Work puzzles, earn RennCoin (RNC), and build a live blockchain visible in your browser. No crypto experience needed.",
+      "highlights": [
+        "Up to 10 miners competing in real-time Proof-of-Work puzzle contests",
+        "Real ECDSA wallets using Bitcoin's secp256k1 curve for cryptographically signed transactions",
+        "Live browser dashboard with SSE streaming — no page refresh needed",
+        "Mempool (transaction waiting room), fork detection, and 2-confirmation finality",
+        "P2P block validation — 2 peer miners independently verify every accepted block",
+        "Configurable difficulty (3–6) and miner count set live on the dashboard",
+        "Run multiple experiments without restarting Docker"
+      ],
+      "challenges": "Coordinating up to 10 concurrent miners submitting blocks simultaneously required a chain lock to ensure exactly one winner per height, while keeping the dashboard and miner HTTP servers fully responsive during heavy PoW computation.",
+      "outcome": "A fully self-contained, zero-install educational environment that teaches Bitcoin fundamentals — Proof-of-Work, wallets, the mempool, finality, and forks — through hands-on live experimentation in a browser.",
+      "keyFeatures": [
+        "Proof-of-Work puzzle contest with configurable difficulty",
+        "ECDSA keypair wallets (secp256k1 — same curve as Bitcoin)",
+        "RennCoin (RNC) coinbase rewards recorded on-chain",
+        "Mempool: pending transactions queue between blocks",
+        "Fork detection when two miners solve the same height simultaneously",
+        "2-confirmation finality with 🔒 lock icon on dashboard",
+        "Decentralised P2P block validation by peer miners",
+        "Live leaderboard showing RNC balances and blocks won"
+      ]
+    },
+    {
       "id": "altpals",
       "slug": "altpals",
       "title": "AltPals - Social Matching Platform",
