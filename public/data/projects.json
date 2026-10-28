@@ -90,7 +90,7 @@
       "category": "Web Game",
       "technologies": ["React", "TypeScript", "Vite", "Tailwind CSS", "SQLite", "Node.js", "Docker"],
       "image": "/images/treetender.jpg",
-      "liveUrl": "https://earnisignal.com",
+      "liveUrl": "https://treetender.rennvalo.com/",
       "shortDescription": "Educational web game where users nurture virtual trees through growth stages with event-driven gameplay.",
       "highlights": [
         "Component-driven UI with reusable design system",

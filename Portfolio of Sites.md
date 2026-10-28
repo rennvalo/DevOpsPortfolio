@@ -635,7 +635,7 @@ BiNaturalBeats.com — Author Website & Digital Book Publication
 •	Implemented an integrated distribution strategy: site-based presentation and Amazon-based distribution, maximizing accessibility and potential sales.
 •	Demonstrated skills in content creation, digital publishing, WordPress site management, ecommerce setup, and self-publishing workflows — from website inception through live publication.
  
-www.earnisignal.com (Tree Tender Game)
+https://treetender.rennvalo.com/ (Tree Tender Game)
 **TreeTender — Project Summary**
 
 TreeTender is an interactive web application/game created by Renn Valo that lets users nurture virtual trees, track growth events, and celebrate milestones. It was designed as a portfolio piece demonstrating modern full-stack web development, realtime interactions, and thoughtful UX for a casual, educational game.
