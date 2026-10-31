@@ -62,6 +62,32 @@
       ]
     },
     {
+      "id": "househunter",
+      "slug": "househunter",
+      "title": "HouseHunter — Smart Home Decision Tool",
+      "subtitle": "Data-Driven Property Scoring & Comparison Platform",
+      "year": "2025",
+      "category": "Web Application",
+      "technologies": ["JavaScript", "Tailwind CSS", "HTML5", "CSS3", "Docker"],
+      "image": "/images/househunter.jpg",
+      "liveUrl": "https://househunter.rennvalo.com/",
+      "shortDescription": "A tool designed to help homebuyers make objective decisions by scoring properties based on a comprehensive set of features, from appliance quality to neighborhood noise levels.",
+      "highlights": [
+        "Custom scoring algorithm to quantify property value objectively",
+        "Address auto-fill functionality for rapid property entry",
+        "Comprehensive feature matrix including lot size, bathroom quality, and HOA impact",
+        "Data-driven comparison system to rank multiple potential homes"
+      ],
+      "challenges": "Developing a balanced scoring system that accurately weights diverse property attributes while remaining intuitive for the end user.",
+      "outcome": "A functional decision-support tool that removes emotional bias from the home-buying process through quantitative analysis.",
+      "keyFeatures": [
+        "Property scoring engine with weighted attributes",
+        "Automated property detail population",
+        "Detailed appliance and feature tracking",
+        "Comparative analysis of multiple properties"
+      ]
+    },
+    {
       "id": "binaturalbeats",
       "slug": "binaturalbeats",
       "title": "BiNaturalBeats.com",
